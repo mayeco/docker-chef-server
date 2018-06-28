@@ -12,4 +12,6 @@ COPY run.sh configure_chef.sh /usr/local/bin/
 
 VOLUME /var/log
 
+EXPOSE 443 80
+
 CMD ["run.sh"]
